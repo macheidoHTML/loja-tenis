@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +8,42 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo à Loja de Tênis</h1>
+        <h1>Loja de Tênis</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
+        <section class="banner">
+            <h2>Os melhores tênis para você</h2>
+        </section>
+
         <section class="produtos">
-            <h2>Produtos em Destaque</h2>
             <div class="produto">
-                <img src="tenis.jpg" alt="Tênis Modelo X">
-                <p>Tênis Esportivo - R$ 299,90</p>
-                <button onclick="adicionarAoCarrinho()">Comprar</button>
+                <img src="tenis1.jpg" alt="Tênis 1">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="produto">
+                <img src="tenis2.jpg" alt="Tênis 2">
+                <h3>Tênis Casual</h3>
+                <p>R$ 149,99</p>
+                <button>Comprar</button>
             </div>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Loja de Tênis. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
