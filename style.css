@@ -4,33 +4,23 @@ body {
     padding: 0;
     text-align: center;
 }
-
 header {
-    background-color: #333;
+    background: #333;
     color: white;
-    padding: 15px;
-}
-
-.produtos {
-    display: flex;
-    justify-content: center;
     padding: 20px;
 }
-
+.produtos {
+    margin: 20px;
+}
 .produto {
-    border: 1px solid #ddd;
-    padding: 15px;
+    display: inline-block;
     margin: 10px;
-    width: 200px;
-    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
-
-.produto img {
-    width: 100%;
-}
-
 button {
-    background-color: #28a745;
+    background: #28a745;
     color: white;
     border: none;
     padding: 10px;
