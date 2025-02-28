@@ -1,3 +1,9 @@
-function adicionarAoCarrinho() {
-    alert('Produto adicionado ao carrinho!');
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const botoes = document.querySelectorAll("button");
+
+    botoes.forEach(botao => {
+        botao.addEventListener("click", () => {
+            alert("Produto adicionado ao carrinho!");
+        });
+    });
+});
